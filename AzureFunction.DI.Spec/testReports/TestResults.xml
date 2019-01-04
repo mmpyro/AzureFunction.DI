@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" duration="0.055000000000000007" testcasecount="7" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2019-01-04T 16:37:11Z" end-time="2019-01-04T 16:37:13Z">
+  <test-suite type="Assembly" name="AzureFunction.DI.Spec.dll" fullname="/home/mm/projects/azurefunction.di/AzureFunction.DI.Spec/bin/Debug/netcoreapp2.0/AzureFunction.DI.Spec.dll" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" duration="0.055">
+    <test-suite type="TestSuite" name="AzureFunction" fullname="AzureFunction" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" duration="0.055">
+      <test-suite type="TestSuite" name="DI" fullname="AzureFunction.DI" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" duration="0.055">
+        <test-suite type="TestSuite" name="Spec" fullname="AzureFunction.DI.Spec" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" duration="0.055">
+          <test-suite type="TestFixture" name="ContainerSpec" fullname="AzureFunction.DI.Spec.ContainerSpec" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" duration="0.055">
+            <test-case name="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredSingletonObject" fullname="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredSingletonObject" methodname="ShouldResolveRegisteredSingletonObject" classname="AzureFunction.DI.Spec.ContainerSpec" result="Passed" duration="0.040999999999999995" asserts="0" />
+            <test-case name="AzureFunction.DI.Spec.ContainerSpec.ShouldThrowExceptionWhenResolveUnregisteredObject" fullname="AzureFunction.DI.Spec.ContainerSpec.ShouldThrowExceptionWhenResolveUnregisteredObject" methodname="ShouldThrowExceptionWhenResolveUnregisteredObject" classname="AzureFunction.DI.Spec.ContainerSpec" result="Passed" duration="0.004" asserts="0" />
+            <test-case name="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredObjectInModule" fullname="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredObjectInModule" methodname="ShouldResolveRegisteredObjectInModule" classname="AzureFunction.DI.Spec.ContainerSpec" result="Passed" duration="0.002" asserts="0" />
+            <test-case name="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredScopedObject" fullname="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredScopedObject" methodname="ShouldResolveRegisteredScopedObject" classname="AzureFunction.DI.Spec.ContainerSpec" result="Passed" duration="0.002" asserts="0" />
+            <test-case name="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredTranscientObject" fullname="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredTranscientObject" methodname="ShouldResolveRegisteredTranscientObject" classname="AzureFunction.DI.Spec.ContainerSpec" result="Passed" duration="0.003" asserts="0" />
+            <test-case name="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredInstanceWhenGenericResolveCalled" fullname="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredInstanceWhenGenericResolveCalled" methodname="ShouldResolveRegisteredInstanceWhenGenericResolveCalled" classname="AzureFunction.DI.Spec.ContainerSpec" result="Passed" duration="0.002" asserts="0" />
+            <test-case name="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredInstanceWhenResolveCalled" fullname="AzureFunction.DI.Spec.ContainerSpec.ShouldResolveRegisteredInstanceWhenResolveCalled" methodname="ShouldResolveRegisteredInstanceWhenResolveCalled" classname="AzureFunction.DI.Spec.ContainerSpec" result="Passed" duration="0.001" asserts="0" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>
