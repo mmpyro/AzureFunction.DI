@@ -17,14 +17,9 @@ pipeline {
                     sh "dotnet sonarscanner end /d:sonar.login=\"${SONAR_LOGIN}\""
                     nunit testResultsPattern: 'AzureFunction.DI.Spec/testReports/*.xml'
                     sh "dotnet pack AzureFunction.DI/AzureFunction.DI.csproj -c Release"
+                    archiveArtifacts artifacts: 'AzureFunction.DI/bin/Release/AzureFunction.DI.*.nupkg', fingerprint: true
                 }
             }
-        }
-    }
-
-    post {
-        always {
-            archiveArtifacts artifacts: 'AzureFunction.DI/bin/Release/AzureFunction.DI.*.nupkg', fingerprint: true
         }
     }
 }
