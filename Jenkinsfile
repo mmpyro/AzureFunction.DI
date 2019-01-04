@@ -15,7 +15,7 @@ pipeline {
                     sh "dotnet sonarscanner begin /k:\"${params.PROJECT_KEY}\" /d:sonar.host.url=\"http://sonarqube:9000\" /d:sonar.login=\"${SONAR_LOGIN}\" /d:sonar.cs.opencover.reportsPaths=\"AzureFunction.DI.Spec/coverage.opencover.xml\" /d:sonar.coverage.exclusions=\"**Spec*.cs\""
                     sh 'dotnet build -c Release ./DI.sln'
                     sh "dotnet sonarscanner end /d:sonar.login=\"${SONAR_LOGIN}\""
-                    nunit testResultsPattern: 'AzureFunction.DI/testReports/*.xml'
+                    nunit testResultsPattern: 'AzureFunction.DI.Spec/testReports/*.xml'
                 }
             }
         }
