@@ -10,6 +10,7 @@ namespace AzureFunction.DI.Spec
     /// </summary>
     public class ContainerSpec
     {
+        //
         [Fact]
         public void ShouldResolveRegisteredInstanceWhenGenericResolveCalled()
         {
