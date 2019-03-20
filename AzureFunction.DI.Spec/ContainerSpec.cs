@@ -5,6 +5,9 @@ using Xunit;
 
 namespace AzureFunction.DI.Spec
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ContainerSpec
     {
         [Fact]
