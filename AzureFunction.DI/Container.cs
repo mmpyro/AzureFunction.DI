@@ -1,5 +1,8 @@
 using System;
 
+/// <summary>
+/// 
+/// </summary>
 namespace AzureFunction.DI
 {
     public class Container : IContainer
