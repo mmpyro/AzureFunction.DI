@@ -5,8 +5,12 @@ using Xunit;
 
 namespace AzureFunction.DI.Spec
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ContainerSpec
     {
+
         /// <summary>
         /// vjl;kv;lk;lv;lkfd;lvkkfdv;lk
         /// </summary>
