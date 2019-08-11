@@ -1,6 +1,9 @@
 version: 2.0
 jobs:
  build:
+  branches:
+    only:
+     - circleci 
   docker:
     - image: mcr.microsoft.com/dotnet/core/sdk:2.2
   steps:
